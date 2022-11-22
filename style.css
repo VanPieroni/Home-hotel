@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    width: 100%;
+}
+
+.background-img{
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+}
+
+.cabecalho-menu{
+    position: fixed; 
+    top: 50px; 
+    width: 100%;
+}
+
+.cabecalho-menu ul{
+    font-size: 15px; 
+    margin: 0 auto;
+    text-align:center
+}
+
+.cabecalho-menu ul li{
+    display: inline;
+}
+
+nav a{
+	text-transform: uppercase;
+	color: #FFFFFF;
+	font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	text-decoration:none;
+	margin: 0 0 0 50px;
+    cursor: pointer;
+    
+}
